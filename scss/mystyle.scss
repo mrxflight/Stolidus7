@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+$purple: #8A4D76;
+$black: #000000;
+$dark: #333333;
+$lighter-black: #2c2c2c;
+$white: #ffffff;
+$primary: $purple;
+$navbar-dropdown-background-color: $dark;
+$navbar-dropdown-item-hover-background-color: $lighter-black;
+$navbar-dropdown-border-top: 0px solid;
+$navbar-dropdown-item-color: $white;
+$navbar-item-color: $white;
+$navbar-dropdown-item-hover-color: $white;
+$navbar-dropdown-item-background: black;
+
+@import "../node_modules/bulma/bulma.sass";

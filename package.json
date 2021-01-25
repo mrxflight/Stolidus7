@@ -1,0 +1,22 @@
+{
+  "name": "stolidus7",
+  "version": "1.0.0",
+  "description": "Stolidus 7 Web page",
+  "main": "scss/mystyle.scss",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "sass-node": "^4.11.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url scss/mystyle.scss css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "keywords": [
+    "Cool"
+  ],
+  "author": "Marlon Lange",
+  "license": "ISC"
+}
